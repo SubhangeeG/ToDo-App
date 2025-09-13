@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="theme">
+        <button id="light">Light</button>
+        <button id="dark">Dark</button>
+      </div>
+
+      <p id="heading">Today's Todo List</p>
+
+      <div class="tagLine">
+        <span id="tag1">Laziness</span>
+        <span id="tag2">Get Set Go</span>
+      </div>
+      <br />
+
+      <div class="inputBox">
+        <input type="text" id="inputTask" placeholder="Input your tasks..." />
+        <button id="addTask">Add</button>
+      </div>
+      <br />
+
+      <div class="dateBox">
+        <span id="dateText">Today's Date: &nbsp;</span>
+        <span id="curDate"></span>
+      </div>
+
+      <ol></ol>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
