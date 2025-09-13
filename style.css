@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/TodoBg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for all elements */
+.container {
+  background-color: #0a00037b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 12px;
+  width: fit-content;
+  margin: 2rem auto;
+}
+
+/* Main Heading */
+#heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+}
+
+/* Theme Buttons */
+.theme {
+  display: flex;
+  padding: 5px;
+  gap: 15px;
+  border-radius: 5px;
+}
+
+#light,
+#dark {
+  color: aliceblue;
+  background-color: rgb(246, 56, 88);
+  font-size: 1.1rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px gray;
+}
+
+#light:hover,
+#dark:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
+}
+
+/* Tagline Styles */
+.tagLine {
+  font-size: 1.7rem;
+  font-weight: 550;
+}
+
+#tag1 {
+  text-decoration: line-through;
+  color: rgb(236, 100, 100);
+}
+
+#tag2 {
+  color: rgb(151, 233, 151);
+}
+
+/* Input Box */
+#inputTask {
+  width: 18rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: rgb(217, 217, 217);
+}
+
+/* Add Button */
+#addTask {
+  color: white;
+  background-color: blue;
+  font-size: 1.1rem;
+  width: 5rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+#addTask:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
+}
+
+/* Current Date Display */
+#curDate,
+#dateText {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* Task List Items */
+li {
+  font-size: 1.5rem;
+  color: white;
+  padding: 2px;
+  background-color: rgba(155, 154, 154, 0.234);
+  border-radius: 5px;
+}
+
+/* Delete Button */
+#crossBtn {
+  border: 1px solid gray;
+  box-shadow: 1px 1px 2px gray;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgba(217, 208, 191, 0.655);
+}
+
+#crossBtn:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
+}
