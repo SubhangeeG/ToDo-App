@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   border: 1px solid black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s, color 0.3s;
 }
 
 /* Container for all elements */
@@ -49,6 +50,8 @@ body {
   border: 1px solid gray;
   border-radius: 8px;
   box-shadow: 1px 1px 2px gray;
+  cursor: pointer;
+  transition: transform 0.2s, border 0.2s;
 }
 
 #light:hover,
@@ -78,6 +81,7 @@ body {
   height: 2rem;
   border-radius: 5px;
   background-color: rgb(217, 217, 217);
+  padding: 2px 5px;
 }
 
 /* Add Button */
@@ -91,6 +95,8 @@ body {
   box-shadow: 2px 2px 2px gray;
   padding: 4px;
   margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, border 0.2s;
 }
 
 #addTask:hover {
@@ -113,15 +119,20 @@ li {
   padding: 2px;
   background-color: rgba(155, 154, 154, 0.234);
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Delete Button */
 #crossBtn {
   border: 1px solid gray;
   box-shadow: 1px 1px 2px gray;
-  margin-left: 10px;
   border-radius: 5px;
   background-color: rgba(217, 208, 191, 0.655);
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, border 0.2s;
 }
 
 #crossBtn:hover {
